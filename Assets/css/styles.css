@@ -1,118 +1,41 @@
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
     padding: 0;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-}
-
 header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #77aaff 3px solid;
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
 }
 
-header a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
-}
-
-header ul {
+nav ul {
+    list-style-type: none;
     padding: 0;
-    list-style: none;
 }
 
-header li {
+nav ul li {
     display: inline;
-    padding: 0 20px 0 20px;
+    margin: 0 1em;
 }
 
-header nav {
-    float: right;
-    margin-top: 10px;
+nav ul li a {
+    color: white;
+    text-decoration: none;
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-section {
-    padding: 20px 0;
-}
-
-#about {
-    background: #f4f4f4;
-    text-align: center;
-}
-
-#services {
-    background: #e4e4e4;
-    text-align: center;
-}
-
-#portfolio {
-    background: #f4f4f4;
-    text-align: center;
-}
-
-#portfolio .gallery {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-#portfolio .gallery-item {
-    background: #ccc;
-    padding: 20px;
-    border-radius: 10px;
-}
-
-#contact {
-    background: #e4e4e4;
-    text-align: center;
+main {
+    padding: 2em;
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background-color: #333;
+    color: white;
     text-align: center;
-    padding: 10px 0;
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-form label {
-    margin: 5px 0;
-}
-
-form input, form textarea {
-    margin: 5px 0;
-    padding: 10px;
-    width: 300px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-form button {
-    padding: 10px 20px;
-    background: #77aaff;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    cursor: pointer;
+    padding: 1em 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
